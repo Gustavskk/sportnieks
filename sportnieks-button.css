@@ -1,0 +1,37 @@
+
+
+.sportnieks-button{
+ Background-color:rgb(202, 78, 29);
+    color:white;
+    border:solid;
+    height:40px;
+    
+    border-radius: 10px;
+    font-weight:bold;
+    font-size:20px;
+    cursor:pointer; 
+    transition: background-color 0.5s, color 0.5s;
+
+}
+.sportnieks-button:hover{
+
+background-color:white;
+color:rgb(202, 78, 29);
+}
+.sportnieks-button:active{
+  opacity:0.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

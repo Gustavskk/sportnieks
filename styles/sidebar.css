@@ -1,0 +1,85 @@
+.sidebar{
+  position:fixed;
+        left:15px;
+        bottom:0;
+        top:80px;
+        background-color:bisque;
+        text-align:center;
+        
+        display:flex;
+        flex-direction:column;
+        height:55px;
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+        column-gap:50px;
+        row-gap: 55px;
+        font-weight:bolder;
+        font-size:100%;
+        
+        
+        
+        
+        
+        margin-top:80px;
+        
+        
+
+        
+        
+        
+}
+.sidebar:active{
+  opacity:0px;
+}
+.futbols{
+ width:115px;
+}
+.button-basketbols{
+  height:60px;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+  column-gap:50px;
+  row-gap: 55px;
+  font-weight:bolder;
+  font-size:100%;
+  color:rgb(0, 0, 0);
+  
+  width:10;
+  cursor:pointer;
+  transition: background-color 0.5s, color -0,7s;
+  background-color:darkkhaki;
+  margin-left:10px;
+  
+  
+  
+  border-radius:9px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:10px;
+  padding-left:10px;
+}
+.button-basketbols:hover{
+color:rgb(0, 0, 0);
+background-color:rgb(230, 163, 19)
+}
+.button-basketbols:active{
+  opacity:0;
+}
+.hokejs{
+  width:115px
+}
+.florbols{
+  width:115px;
+}
+.volejbols{
+  width:115px;
+}
+.basketbols{
+  width:115px;
+}
+  
+
+  
+
+
+  
+  
+  
